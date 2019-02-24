@@ -16,7 +16,6 @@ def first_challenge
     }
   }
   
-  contacts["Jon Snow"][:favorite_icecream_flavors] << "mint chip"
   contacts["Freddy Mercury"][:favorite_icecream_flavors].delete("strawberry")
  
   return contacts 
