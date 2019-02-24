@@ -7,11 +7,10 @@ def second_challenge
   }
 
   #code your solution here!
-  array = []
-  groceries.each {|key, value|
-    array << value
-  }
-  
-  array.flatten
+
+  groceries.map {|key, value|
+    value
+  }.flatten
+
 
 end
