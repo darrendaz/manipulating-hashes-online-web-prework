@@ -12,5 +12,4 @@ def second_challenge
     groceries[key].values
   }
 
-
 end
