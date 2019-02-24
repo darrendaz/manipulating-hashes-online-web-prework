@@ -18,7 +18,7 @@ def first_challenge
   
   contacts["Freddy Mercury"][:favorite_icecream_flavors].delete("strawberry")
  
-  return contacts 
+  contacts 
 
 end
 
