@@ -11,5 +11,6 @@ def second_challenge
   groceries.each {|key, value|
     array << value
   }
+  array
 
 end
