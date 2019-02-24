@@ -8,9 +8,7 @@ def second_challenge
 
   #code your solution here!
 
-  groceries.map {|key, value|
-    value
-  }.flatten
+  groceries.values.flatten
 
 
 end
