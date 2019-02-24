@@ -1,7 +1,7 @@
 def first_challenge
   contacts["Jon Snow"][:favorite_icecream_flavors] << "mint chip"
  
-puts contacts 
+  puts contacts 
 
   
   contacts = {
