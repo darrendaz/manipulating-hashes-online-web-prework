@@ -1,5 +1,6 @@
 def first_challenge
   contacts["Jon Snow"][:favorite_icecream_flavors] << "mint chip"
+  contacts["Jon Snow"][:favorite_icecream_flavors].pop("mint chip")
  
   puts contacts 
 
