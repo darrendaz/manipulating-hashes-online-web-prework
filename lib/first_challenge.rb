@@ -1,4 +1,9 @@
 def first_challenge
+  contacts["Jon Snow"][:favorite_icecream_flavors] << "mint chip"
+ 
+puts contacts 
+
+  
   contacts = {
     "Jon Snow" => {
       name: "Jon",
@@ -13,9 +18,6 @@ def first_challenge
     }
   }
 
-contacts["Jon Snow"][:favorite_icecream_flavors] << "mint chip"
- 
-puts contacts 
 
 end
 
