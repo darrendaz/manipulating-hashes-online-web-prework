@@ -1,8 +1,5 @@
 def first_challenge
-  contacts["Jon Snow"][:favorite_icecream_flavors] << "mint chip"
-  contacts["Jon Snow"][:favorite_icecream_flavors].pop("mint chip")
- 
-  puts contacts 
+  
 
   
   contacts = {
@@ -18,7 +15,11 @@ def first_challenge
       favorite_icecream_flavors: ["strawberry", "cookie dough", "mint chip"]
     }
   }
-
+  
+  contacts["Jon Snow"][:favorite_icecream_flavors] << "mint chip"
+  contacts["Jon Snow"][:favorite_icecream_flavors].pop("mint chip")
+ 
+  puts contacts 
 
 end
 
