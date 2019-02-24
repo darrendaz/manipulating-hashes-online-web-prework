@@ -11,5 +11,6 @@ def second_challenge
   groceries.collect {|key, value|
     array << key.values
   }
+  array
 
 end
