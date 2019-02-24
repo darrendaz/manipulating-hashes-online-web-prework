@@ -7,9 +7,9 @@ def second_challenge
   }
 
   #code your solution here!
-  
+  array = []
   groceries.collect {|key, value|
-    groceries[key].values
+    array << key.values
   }
 
 end
